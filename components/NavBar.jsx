@@ -27,7 +27,7 @@ export default function Navbar() {
 
             ${
               scrolled
-                ? "bg-black/60 backdrop-blur-md scale-[0.98]"
+                ? "bg-black/20 backdrop-blur-md scale-[0.98]"
                 : "bg-transparent backdrop-blur-0"
             }
           `}

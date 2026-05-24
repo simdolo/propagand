@@ -4,13 +4,16 @@ import AboutSection from "@/components/AboutUs";
 import ProductSection from "@/components/ProductSection";
 import ProductsGridSection from "@/components/ProductsGridSection";
 import ContactSection from "@/components/ContactSection";
+import ScrollFadeSections from "@/components/ScrollFadeSections";
 
 export default function Home() {
   return (
     <div className="bg-zinc-900">
       <HeroSection />
-      <AboutSection />
-      <ProductSection />
+      <ScrollFadeSections
+        firstSection={<AboutSection />}
+        secondSection={<ProductSection />}
+      />
       <ProductsGridSection />
       <ContactSection />
     </div>
