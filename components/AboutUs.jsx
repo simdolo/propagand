@@ -24,7 +24,7 @@ export default function AboutSection() {
         {floatingItems.map((item, index) => (
           <div
             key={item}
-            className={`absolute floating-item-${index} border border-white/10 bg-white/3 backdrop-blur-sm text-white/60 px-5 py-3 rounded-full text-xs tracking-[0.25em]`}
+            className={`absolute floating-item-${index} border border-blue-500/30 bg-white/3 backdrop-blur-sm text-white/60 px-5 py-3 rounded-full text-xs tracking-[0.25em]`}
           >
             {item}
           </div>
@@ -32,7 +32,7 @@ export default function AboutSection() {
       </div>
 
       {/* CENTER BLOCK */}
-      <div className="relative z-10 max-w-6xl w-full border border-white/10 bg-white/3 backdrop-blur-md rounded-[40px] p-8 md:p-14 lg:p-20">
+      <div className="relative z-10 max-w-6xl w-full border border-blue-500/30 bg-white/3 backdrop-blur-md rounded-4xl p-8 md:p-14 lg:p-20">
         <div className="grid lg:grid-cols-[320px_1fr] gap-10 lg:gap-20">
           {/* LEFT */}
           <div className="flex flex-col justify-start">
@@ -43,7 +43,7 @@ export default function AboutSection() {
             <h2 className="text-5xl md:text-7xl leading-[0.9] font-light tracking-[-0.06em]">
               Sme
               <br />
-              <span className="font-black pb-2">experti</span>
+              <span className="font-black pb-2 text-blue-500">experti</span>
               <br />
               v obore
             </h2>

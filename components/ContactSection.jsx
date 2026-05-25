@@ -7,7 +7,7 @@ export default function ContactSection() {
       <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(circle_at_center,white_1px,transparent_1px)] bg-size-[28px_28px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-6 md:grid-rows-6 auto-rows-[180px] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-6 md:grid-rows-6 auto-rows-[180px] gap-1">
           {/* CONTACT INFO */}
           <div className="md:col-span-2 md:row-span-1 p-2 flex flex-col justify-between">
             <div>
@@ -24,7 +24,7 @@ export default function ContactSection() {
           </div>
 
           {/* MAP */}
-          <div className="md:col-span-4 md:row-span-2 border border-white/10 bg-white/5 rounded-[30px] overflow-hidden relative">
+          <div className="md:col-span-4 md:row-span-2 border border-blue-500/20 bg-white/5 rounded-tr-4xl overflow-hidden relative">
             <iframe
               title="map"
               className="w-full h-full"
@@ -34,7 +34,7 @@ export default function ContactSection() {
           </div>
 
           {/* COMPANY DATA */}
-          <div className="md:col-span-2 md:row-span-2 border border-white/10 bg-white/1.5 rounded-[30px] p-6 flex flex-col justify-between">
+          <div className="md:col-span-2 md:row-span-2 border border-blue-500/30 bg-white/1.5 rounded-tl-4xl p-6 flex flex-col justify-between">
             <div>
               <h3 className="text-xs uppercase tracking-[0.35em] text-white/30 mb-4">
                 fakturačné údaje
@@ -66,7 +66,7 @@ export default function ContactSection() {
           </div>
 
           {/* CONTACT FORM */}
-          <div className="md:col-span-4 md:row-span-2 border border-white/10 bg-white/2 rounded-[30px] p-8">
+          <div className="md:col-span-4 md:row-span-2 border border-blue-500/30 bg-white/2 rounded-br-4xl p-8">
             <h3 className="text-xs uppercase tracking-[0.35em] text-white/30 mb-6">
               napíšte nám
             </h3>
@@ -111,7 +111,7 @@ export default function ContactSection() {
           </div>
 
           {/* NEWSLETTER */}
-          <div className="md:col-span-2 md:row-span-1 border border-white/10 bg-white/1.5 rounded-[30px] p-6 flex flex-col justify-between">
+          <div className="md:col-span-2 md:row-span-1 border border-blue-500/30 bg-white/1.5 rounded-bl-4xl p-6 flex flex-col justify-between">
             {/* top row */}
             <div className="flex justify-start">
               <h3 className="text-xs uppercase tracking-[0.35em] text-white/30 text-left">

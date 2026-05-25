@@ -19,7 +19,7 @@ export default function HeroSection() {
                   s ktorou
                 </span>
 
-                <span className="text-[5rem] md:text-[8rem] lg:text-[10rem] font-black tracking-[-0.08em] text-white">
+                <span className="text-[5rem] md:text-[8rem] lg:text-[10rem] font-black tracking-[-0.08em] text-blue-500">
                   VÁS
                 </span>
               </div>
@@ -39,12 +39,12 @@ export default function HeroSection() {
             ostatnými.
           </p>
 
-          <div className="mt-10 flex gap-4">
-            <button className="px-7 py-4 bg-white text-black rounded-full text-sm font-medium hover:scale-[1.03] transition">
+          <div className="mt-10 flex">
+            <button className="px-7 py-4 bg-red-800 border border-white/20 text-white rounded-l-xl text-sm font-medium hover:scale-[1.03] transition">
               Zobraziť služby
             </button>
 
-            <button className="px-7 py-4 border border-white/10 rounded-full text-sm text-white/70 hover:border-white/30 transition">
+            <button className="px-7 py-4 bg-zinc-800 border border-white/10 rounded-r-xl text-sm text-white/70 hover:border-white/30 transition">
               Kontakt
             </button>
           </div>

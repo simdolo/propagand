@@ -53,7 +53,7 @@ export default function SloganSection() {
               čo zvládnete
             </span>
 
-            <span className="text-6xl md:text-8xl lg:text-[10rem] leading-none font-black tracking-[-0.08em]">
+            <span className="text-6xl text-blue-500 md:text-8xl lg:text-[10rem] leading-none font-black tracking-[-0.08em]">
               vymenovať,
             </span>
           </div>
@@ -74,7 +74,7 @@ export default function SloganSection() {
                 zvládneme
               </span>
 
-              <span className="text-4xl md:text-6xl lg:text-7xl italic font-light text-white">
+              <span className="text-4xl text-blue-400 md:text-6xl lg:text-7xl italic font-light">
                 potlačiť
               </span>
             </div>
