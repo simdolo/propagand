@@ -24,7 +24,7 @@ export default function ContactSection() {
           </div>
 
           {/* MAP */}
-          <div className="md:col-span-4 md:row-span-2 border border-blue-500/20 bg-white/5 rounded-tr-4xl overflow-hidden relative">
+          <div className="md:col-span-4 md:row-span-2 border border-blue-500/20 bg-white/5 rounded-t-4xl overflow-hidden relative">
             <iframe
               title="map"
               className="w-full h-full"
@@ -80,30 +80,30 @@ export default function ContactSection() {
               <input
                 type="text"
                 placeholder="Vaše meno"
-                className="bg-white/5 border border-white/10 rounded-xl p-4 outline-none focus:border-white/30"
+                className="bg-white/5 border border-red-500/30 rounded-xl p-4 outline-none focus:border-white/30"
               />
 
               <input
                 type="email"
                 placeholder="Email"
-                className="bg-white/5 border border-white/10 rounded-xl p-4 outline-none focus:border-white/30"
+                className="bg-white/5 border border-red-500/30 rounded-xl p-4 outline-none focus:border-white/30"
               />
 
               <input
                 type="text"
                 placeholder="O čo ide?"
-                className="md:col-span-2 bg-white/5 border border-white/10 rounded-xl p-4 outline-none focus:border-white/30"
+                className="md:col-span-2 bg-white/5 border border-red-500/30 rounded-xl p-4 outline-none focus:border-white/30"
               />
 
               <textarea
                 placeholder="Popíšte váš projekt..."
                 rows={5}
-                className="md:col-span-2 bg-white/5 border border-white/10 rounded-xl p-4 outline-none focus:border-white/30 resize-none"
+                className="md:col-span-2 bg-white/5 border border-red-500/30 rounded-xl p-4 outline-none focus:border-white/30 resize-none"
               />
 
               <button
                 type="submit"
-                className="md:col-span-2 bg-white text-black rounded-full py-4 font-medium hover:scale-[1.02] transition"
+                className="md:col-span-2 bg-red-800 border border-white/20 text-white rounded-xl py-4 font-medium hover:scale-[1.02] transition"
               >
                 Odoslať požiadavku
               </button>
@@ -137,11 +137,11 @@ export default function ContactSection() {
               <input
                 type="email"
                 placeholder="Váš email"
-                className="flex-1 bg-white/5 border border-white/10 rounded-xl p-3 outline-none focus:border-white/30"
+                className="flex-1 bg-white/5 border border-red-500/30 rounded-xl p-3 outline-none focus:border-white/30"
               />
-              <button className="px-5 bg-white text-black rounded-xl text-sm font-medium hover:scale-[1.03] transition">
-                Prihlásiť
-              </button>
+              <button className="px-7 py-4 bg-red-800 border border-white/20 text-white rounded-xl text-sm font-medium hover:scale-[1.03] transition w-fit">
+              Prihlasiť
+            </button>
             </div>
           </div>
         </div>
