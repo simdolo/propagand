@@ -1,10 +1,10 @@
 import Image from "next/image";
-import HeroSection from "@/components/hero";
-import AboutSection from "@/components/AboutUs";
-import ProductSection from "@/components/ProductSection";
-import ProductsGridSection from "@/components/ProductsGridSection";
-import ContactSection from "@/components/ContactSection";
-import ScrollFadeSections from "@/components/ScrollFadeSections";
+import HeroSection from "@/components/homepage/hero";
+import AboutSection from "@/components/homepage/AboutUs";
+import ProductSection from "@/components/homepage/ProductSection";
+import ProductsGridSection from "@/components/homepage/ProductsGridSection";
+import ContactSection from "@/components/homepage/ContactSection";
+import ScrollFadeSections from "@/components/homepage/ScrollFadeSections";
 
 export default function Home() {
   return (
